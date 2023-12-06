@@ -1,0 +1,246 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(sea.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    * {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    
+    .navbar {
+        background: rgba(12, 125, 135, 0.5); 
+        font-family:Arial, Helvetica, sans-serif;
+        padding-left: 30px;
+    }
+
+    li a:hover {
+        color:plum;
+    }
+
+    .navdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo a {
+        font-size: 35px;
+        font-weight: 60px;
+        color: rgb(185, 0, 0);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align:center;
+        padding: 1px 10px;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+
+    footer {
+        background-color:transparent;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+        font-size: 15px ;
+    }
+
+    .text-stroke {
+        color: rgb(252, 255, 252);
+        text-shadow: 1px 2px 1px rgb(0, 0, 0);
+        text-align: center;
+        font-size: 30px;
+    }
+    
+
+    .sliding-text {
+        text-align: right;
+        overflow: hidden;
+        animation: slideIn 1.5s; 
+        margin: 0;
+    }
+
+    @keyframes slideIn {
+        0% {
+            transform: translateY(-100%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .container1 {
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+        margin-left: 40px;
+        margin-top: 30px;
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255);
+
+     }
+
+     .container1 img {
+        border-radius: 10px;
+        border: 2px solid white;
+     }
+
+     .container1 p:hover {
+        transform: scale(1.5);
+        transition: transform 0.5s;
+        }
+
+    .container2 {
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+     }
+
+     .container2 img {
+        border-radius: 10px;
+        border: 2px solid white;
+     }
+
+     .container2 p:hover {
+        transform: scale(1.5);
+        transition: transform 0.5s;
+        }
+
+     .container3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-left: 450px;                     
+     }
+
+     .container3 img {
+        border-radius: 10px;
+        border: 2px solid white;
+     }
+
+     .container3 p:hover {
+        transform: scale(1.5);
+        transition: transform 0.5s;
+        }
+
+
+     .container4 {
+        display: flex;
+        float: left;
+        margin-left: 60px;
+        margin-top: 100px; 
+     }
+
+     .container4 img {
+        border-radius: 10px;
+        border: 2px solid white;
+     }
+
+     .container4 p:hover {
+        transform: scale(1.5);
+        transition: transform 0.5s;
+        }
+
+     
+    .container5 {
+        display: flex;
+        float: left;
+        margin-left: 20px;
+        margin-top: 100px;
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255);
+     }
+
+     .container5 img {
+        border-radius: 10px;
+        border: 2px solid rgb(215, 236, 215);
+     }
+
+
+     .container5 img:hover {
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255);
+        transform: scale(1.5);
+        transition: transform 0.5s;
+        
+     }
+
+     .container5 p:hover {
+        transform: scale(1.5);
+        transition: transform 0.5s;
+     }
+
+     .container6 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-left: 895px; 
+     }
+
+     .container6 img {
+        border-radius: 10px;
+        border: 2px solid rgb(215, 236, 215);
+     }
+
+     .container6 p:hover {
+        transform: scale(1.5);
+        transition: transform 0.5s;
+        }
+    
+
+
+     .pic {
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+     }
+     .pic img {
+        width: 350px;
+        height: auto;
+     }
+
+
+     .text1-stroke {
+        color: rgb(13, 15, 13);
+        text-shadow: 3px 2px 1px rgb(226, 219, 219);
+        text-align: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        color:aqua;
+        border: 2px solid white;
+    }
+

@@ -1,0 +1,144 @@
+        
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(sea.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    * {
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .navbar {
+        background:rgba(12, 125, 135, 0.5) ; 
+        font-family:Arial, Helvetica, sans-serif;
+        padding-left: 30px;
+    }
+
+    li a:hover {
+        color:plum;
+    }
+
+    .navdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo a {
+        font-size: 35px;
+        font-weight: 60px;
+        color: rgb(0, 0, 0);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align:center;
+        padding: 1px 10px;
+        text-decoration: none;
+    }
+
+        img {
+            width: 400px;
+            margin-top: 0 auto;
+            border-radius: 20px;
+            border: 2px solid white;
+        }
+    
+
+        h3 {
+            text-align: center;
+            color: rgb(162, 240, 214);
+
+            font-size: 25px;
+        }
+
+        .text-stroke {
+        color: rgb(252, 255, 252);
+        text-shadow: 1px 2px 1px rgb(0, 0, 0);
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    .sliding-text {
+        text-align: right;
+        overflow: hidden;
+        animation: slideIn 1.5s; 
+        margin: 0;
+    }
+
+    @keyframes slideIn {
+        0% {
+            transform: translateY(-80%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+  .album-table {
+    width: 70%;
+    border-collapse: collapse;
+    vertical-align: middle;
+    margin-left: 190px;
+    margin-top: 10px;
+  }
+  .album-table th, .album-table td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    color: rgb(22, 175, 175);
+  }
+  .album-table th {
+    background-color: #f2f2f2;
+  }
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+@keyframes sliding-up {
+    0% {
+      transform: translateY(80%);
+   }
+    100% {
+      transform: translateY(0%);
+   }
+  }
+  
+  .sliding-up {
+   animation: sliding-up 1s ease-in-out;
+  }
+
+  .letter-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 70%;
+}
+
+footer {
+    background-color:transparent;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
